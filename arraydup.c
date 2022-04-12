@@ -14,7 +14,8 @@ for(i=0;i<n-1;i++)
 {
 if(array[i]!=array[i+1])
 temp[j++]=array[i];
- temp[j++]=array[n-1];
+else
+ temp[j++]=array[n];
 }
 #temp[j++]=array[n-1];
 for(i=0;i<j;i++)
